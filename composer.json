@@ -1,0 +1,15 @@
+{
+    "name": "mike/program1",
+    "type": "project",
+    "license": "GNU",
+    "authors": [
+        {
+            "name": "Michael Umyskov",
+            "email": "m.umyskov@list.ru"
+        }
+    ],
+    "require": {
+        "umyskov/brackets-parser" :  "dev-master"
+    }
+
+}
