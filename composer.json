@@ -10,6 +10,11 @@
     ],
     "require": {
         "umyskov/brackets-parser" :  "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Program1\\": "src"
+        }
     }
 
 }
