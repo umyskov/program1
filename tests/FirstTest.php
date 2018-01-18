@@ -19,4 +19,12 @@ class FirstTest extends TestCase
     {
         $this->assertFalse(BracketsParser::run('())'));
     }
+    public function testTrueSymbols()
+    {
+        $this->assertTrue(BracketsParser::run('( )'));
+    }
+    public function testFalseSymbols()
+    {
+        $this->assertFalse(BracketsParser::run('(8))'));
+    }
 }
