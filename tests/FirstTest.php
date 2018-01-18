@@ -9,7 +9,7 @@
 use PHPUnit\Framework\TestCase;
 use BracketsParser\BracketsParser;
 
-class MyTest extends TestCase
+class FirstTest extends TestCase
 {
     public function testTrue()
     {
