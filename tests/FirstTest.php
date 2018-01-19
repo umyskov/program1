@@ -11,7 +11,8 @@ use BracketsParser\BracketsParser;
 
 /**
  * Class FirstTest
- */  
+ *
+ */
 class FirstTest extends TestCase
 {
     public function testTrue()
